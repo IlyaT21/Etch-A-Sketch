@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.button-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+#grid-size {
+  width: 50px;
+}
+
+.tools {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.tool-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#hidden {
+  position: relative;
+  z-index: -1;
+  opacity: 0;
+}
+
+.tool-item input {
+  width: 100%;
+}
+
+#grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.field {
+  border: 1px solid #000;
+}
